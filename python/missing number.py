@@ -1,0 +1,19 @@
+n=int(input())
+b=list(map(int,input().split()))
+s=sum(b)
+total=0
+
+for i in range(1,n+1):
+    total+=i
+
+print(total-s)
+
+
+''' TLE
+n=int(input())
+a=list(map(int,input().split()))
+
+for i in range(1,n+1):
+    if i not in a:
+        print(i)
+'''
